@@ -1,16 +1,18 @@
-# Python Template
+# Seed multi-objective BO for molecules
 
-**Project description here**
+A simple multi-objective BO repo for molecules.
 
-This is a template project so I don't need to keep setting up pre-commit.
+## Installation
+
+Start with a standard python environment with numpy/scipy/pandas/etc,
+*and* `rdkit`, *and* `PyTDC` (e.g. via `pip install rdkit PyTDC`).
+
+Then, install `kern_gp` by cloning
+`https://github.com/AustinT/kernel-only-GP.git`
+and adding the directory to `PYTHONPATH`
+(e.g. running `export PYTHONPATH=path/to/kernel-only-GP:$PYTHONPATH`).
 
 ## Development
-
-### Installation
-
-**Installation instructions here**
-
-### Formatting
 
 Use pre-commit to enforce formatting, large file checks, etc.
 
